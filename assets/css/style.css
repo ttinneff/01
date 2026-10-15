@@ -1,0 +1,65 @@
+/* ==========================================================
+   GRUNDSTIL
+   ========================================================== */
+
+   body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* ==========================================================
+     HEADLINES
+     ========================================================== */
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  }
+  
+  /* ==========================================================
+     AUSZEICHNUNGEN
+     ========================================================== */
+  
+  figcaption {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    text-align: right;
+    padding: 15px 30px 0 0 ;
+  }
+  
+  /* ==========================================================
+     LAYOUT
+     ========================================================== */
+  
+  header,
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 90px 0 15px 0; 
+  }
+
+  h1, div.content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  div.content {
+    padding-top: 45px;
+  }
+
+  figure {
+    margin: 0;
+  }
+  
+  /* ==========================================================
+     BILDER
+     ========================================================== */
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
